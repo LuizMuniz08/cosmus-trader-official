@@ -1,0 +1,1 @@
+web: gunicorn cosmus_trader_backend.wsgi
