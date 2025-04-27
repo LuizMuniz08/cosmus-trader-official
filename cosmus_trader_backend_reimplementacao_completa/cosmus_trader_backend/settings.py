@@ -14,7 +14,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cosmos_trader_backend',  # Adicione o nome do seu aplicativo aqui
+    'cosmus_trader_backend',  # Adicione o nome do seu aplicativo aqui
 ]
 
 MIDDLEWARE = [
