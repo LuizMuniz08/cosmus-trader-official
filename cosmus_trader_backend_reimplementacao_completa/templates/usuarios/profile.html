@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,3 +18,24 @@
     <a href="{% url 'logout' %}">Sair</a>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+</head>
+<body>
+    <h1>Bem-vindo ao seu perfil, {{ user.username }}!</h1>
+    <p>Aqui estão seus dados:</p>
+    <ul>
+        <li><strong>Nome:</strong> {{ user.first_name }} {{ user.last_name }}</li>
+        <li><strong>Username:</strong> {{ user.username }}</li>
+        <li><strong>Email:</strong> {{ user.email }}</li>
+    </ul>
+
+    <a href="{% url 'logout' %}">Sair</a>
+</body>
+</html>
+>>>>>>> 6eb8ce40572ea4cf08494772622918e5ab05e1ca
