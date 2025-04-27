@@ -1,1 +1,2 @@
-web: gunicorn cosmus_trader_backend.wsgi
+web: gunicorn cosmus_trader_backend.wsgi:application
+

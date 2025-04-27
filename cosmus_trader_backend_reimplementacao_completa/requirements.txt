@@ -1,2 +1,4 @@
 Django>=4.2
-gunicorn
+gunicorn==23.0.0
+psycopg2-binary  # Se estiver usando PostgreSQL
+django-environ    # Se for usar variáveis de ambiente para configuração
